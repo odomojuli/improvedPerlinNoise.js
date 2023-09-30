@@ -93,7 +93,7 @@ var ImprovedNoise = function () {
 
             // original function uses floor() instead of int()
             // floor() is slower than int() for our scenario
-			var intX = Math.int(x), floorY = Math.int(y), floorZ = Math.int(z);
+			var intX = Math.int(x), intY = Math.int(y), intZ = Math.int(z);
 
 			var X = intX & 255, Y = intY & 255, Z = intZ & 255;
 
